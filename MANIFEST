@@ -1,0 +1,3 @@
+Makefile.PL
+VBucket.xs
+lib/Couchbase/VBucket.pm
