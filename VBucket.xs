@@ -116,9 +116,7 @@ PLCBvb_diff(SV *self, SV *other)
     VBUCKET_CONFIG_DIFF *diff;
     PLCBvb_t *object, *other_obj;
     char **strp;
-    
-    int i;
-    
+
     object = _self2obj(self);
     other_obj = _self2obj(other);
     
